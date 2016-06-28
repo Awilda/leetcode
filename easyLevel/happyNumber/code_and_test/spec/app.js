@@ -43,9 +43,11 @@ describe('isHappy', function() {
 		var num1 = isHappy(19);
 		var num2 = isHappy(56);
 		var num3 = isHappy(79);
+		var num3 = isHappy(7);
 
 			expect(num1).toEqual(true);
 			expect(num2).toEqual(false);
+			expect(num3).toEqual(true);
 			expect(num3).toEqual(true);
 	});
 });

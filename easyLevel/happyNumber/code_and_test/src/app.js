@@ -18,7 +18,7 @@ var addSquaresToBucket = function(num) {
 };
 
 var addDigits = function(num) {
-	while (num > 9) {
+	while (num >= 2) {
 		num = addSquaresToBucket(num);
 	}
 	return num;
